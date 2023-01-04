@@ -1,0 +1,43 @@
+.nav-container{
+    width: 100%;
+    position: absolute;
+    display: flex;
+        justify-content: center;
+}
+    
+    nav{
+        width: 80%;
+        display: flex;
+    justify-content: space-around;
+
+        .nav-left{
+            display: flex;
+            align-items: center;
+
+            a{
+                color: white;
+                text-decoration: none;
+            }
+    
+        }
+        
+        .nav-right{
+            i{
+                color: white;
+                
+            }
+           ul{
+display: flex;
+gap: 30px;
+            li{
+                list-style: none;
+                a{
+                    color: white;
+                    text-decoration: none;
+                    
+                }
+            }
+           }
+        }
+    }
+

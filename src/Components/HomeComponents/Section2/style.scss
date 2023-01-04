@@ -1,0 +1,28 @@
+.sec-2-container{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    .sec-2-texts{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        width: 38%;
+
+
+        a{
+            font-weight: bolder;
+            font-size: 32px;
+            letter-spacing: 1px;
+        }
+
+        h3{
+            font-size: 24px;
+            font-weight: 100;
+        }
+        p{
+            font-style: italic;
+            opacity: 0.5;
+        }
+    }
+}

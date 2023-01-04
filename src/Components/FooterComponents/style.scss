@@ -1,0 +1,25 @@
+.footer-container{
+margin-top: 40px;
+
+
+.footer{
+    width: 100%;
+
+    .logos{
+        display:flex ;
+       justify-content: center;
+       gap: 30px;
+
+       i{
+        font-size: 45px;
+        
+       }
+    }
+    .footer-text{
+        display:flex ;
+        justify-content: center;
+        opacity: 0.5;
+        font-size: 12px
+    }
+}
+}
